@@ -1,0 +1,36 @@
+# Built application files
+*.apk
+*.ap_
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle files
+.gradle/
+build/
+app/build/
+
+# Local configuration file (contains SDK path)
+local.properties
+
+# Android Studio
+*.iml
+.idea/
+.DS_Store
+
+# Firebase
+app/google-services.json
+
+# Admin credentials config
+app/src/main/java/com/HassanProject/shopapp/config/AdminConfig.java
+
+# Log files
+*.log

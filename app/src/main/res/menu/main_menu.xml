@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_cart"
+        android:title="Cart"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_wishlist"
+        android:title="Wishlist"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_admin_orders"
+        android:title="Admin Orders"
+        app:showAsAction="never"
+        android:visible="false" />
+    <item
+        android:id="@+id/action_add_dummy"
+        android:title="Add Dummy Product"
+        app:showAsAction="never"
+        android:visible="false" />
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>
