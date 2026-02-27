@@ -204,13 +204,16 @@ app/src/main/
 │   ├── CartItem.java                 # Cart item model
 │   ├── Order.java                    # Order model
 │   │
-│   └── ProductImageHelper.java       # Maps product names → drawable resources
+│   └── ProductImageHelper.java       # Maps product names → asset images
+│
+├── assets/
+│   └── products/                     # 22 product images (JPGs) — consoles, GPUs, RAM, etc.
 │
 ├── res/
 │   ├── layout/                       # 16 XML layouts (activities, fragments, items)
 │   ├── menu/                         # Bottom nav & options menus
 │   ├── anim/                         # 6 transition animations
-│   ├── drawable/                     # Product images (22 JPGs) + vector icons
+│   ├── drawable/                     # App logo, vector icons, status badge
 │   ├── values/                       # Colors, strings, themes
 │   └── mipmap/                       # App launcher icons
 │
@@ -237,7 +240,7 @@ app/src/main/
 | `name` | String | Product name |
 | `price` | double | Price in currency |
 | `description` | String | Product description |
-| `imageUrl` | String | Image identifier (mapped to local drawable) |
+| `imageUrl` | String | Image filename (loaded from `assets/products/`) |
 
 ### CartItem
 | Field | Type | Description |
